@@ -29,7 +29,7 @@ const BlogList = () => {
 
   return (
     <div className="blogcontainer">
-      <h2>📰 Recent Blog Posts</h2>
+      <h2>Recent Blog Posts</h2>
       {posts.map((post) => (
         <Link to={`post/${post.id}`} key={post.id}>
         <div
