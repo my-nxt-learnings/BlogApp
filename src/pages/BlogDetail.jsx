@@ -34,11 +34,13 @@ const BlogDetail = () => {
   return (
     <>
     <Header />
+    <div className="inside-card">
     <div className="detail-wrapper">
     <Link to="/" className="back-link">← Back to Home</Link>
     <h1 className="detail-title">{post.title}</h1>
     <img src={post.imageUrl} alt="cover" className="detail-img" />
     <p className="detail-body">{post.body}</p>
+  </div>
   </div>
   <Footer />
   </>

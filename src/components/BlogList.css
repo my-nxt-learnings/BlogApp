@@ -19,11 +19,12 @@
   
   .blog-title {
     color: #2c3e50;
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   .blog-body {
     color: #555;
+    text-decoration: none;
   }
 
   .blogcontainer{
